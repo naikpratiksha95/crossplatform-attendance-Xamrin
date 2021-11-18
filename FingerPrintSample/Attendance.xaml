@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FingerPrintSample.Attend" BackgroundColor="PaleGreen">
+    <ContentPage.Content>
+
+        <StackLayout  HorizontalOptions="Center" VerticalOptions="Center">
+            
+            <Button Text="Attendance" HorizontalOptions="Center" VerticalOptions="Center" 
+                    TextColor="Black" BackgroundColor="White"
+                    Clicked="Button_Clicked"/>
+            <Label x:Name="lbldateTime"></Label>
+         </StackLayout>
+       
+        
+    </ContentPage.Content>
+</ContentPage>
